@@ -8,13 +8,11 @@ canvas {
 }
 
 .legend {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: left;
+    width: max-content;
+    margin: 0 auto;
     margin-top: 20px;
-}
-
-.legend div {
-    margin-right: 15px;
 }
 
 .error {
